@@ -1,12 +1,9 @@
 import sys,os
-import threading
 import time
 import uuid
 import cv2
 import numpy as np
 import math
-import dataset
-import config
 import argparse
 import axis
 import asyncio
