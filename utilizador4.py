@@ -12,8 +12,6 @@ from httpx import AsyncClient
 from axis.ptz import PtzControl
 from urllib.parse import urlparse
 import async_timeout
-import json
-import select
 HOST = '192.168.180.7'  # Standard loopback interface address (localhost)
 PORT = 65432        # Port to listen on (non-privileged ports are > 1023)
 HOST2 = '192.168.16.7'  # Standard loopback interface address (localhost)
