@@ -1,13 +1,10 @@
 import sys,os
 import time
 import uuid
-import cv2
-import numpy as np
 import math
 import argparse
 import axis
 import asyncio
-import logging
 from httpx import AsyncClient
 from axis.ptz import PtzControl
 from urllib.parse import urlparse
